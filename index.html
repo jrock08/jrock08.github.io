@@ -1,1 +1,215 @@
-test
+<html>
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+<link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,900,100italic,100,300,300italic,400italic,500italic,900italic,700italic' rel='stylesheet' type='text/css'>
+
+<style>
+      body {
+        font-family: 'sans-serif';
+        font-size: 16px;
+        background-color: #eff5f5;
+        /*background-color: #FFFCF4;*/
+        color: #141f1f;
+      }
+      .color1 {
+        background-color: #CCC;
+      }
+      #header {
+        width: 100%;
+        height: 360px;
+        background-color: #d0e2e2;
+        /*background-color: #F0EAD6*/
+        /* background-color: #b30000; */
+        /* background-color: #CCC; */
+      }
+      #header-inner {
+        position: absolute;
+        width: 70%;
+        left: 0%;
+        top: 150px;
+      }
+      .img-me {
+        border: 3px solid white;
+        float: right;
+        height: 200px;
+      }
+      .header-text {
+        margin-top: 60px;
+        margin-left: 220px;
+      }
+      .header-text-name {
+        font-weight: bold;
+        font-size: 40px;
+      }
+      .header-text-email {
+        font-size: 20px;
+        font-style: italic;
+      }
+      .header-text-desc {
+        font-size: 20px;
+      }
+      .pubs {
+        margin-left: 15px;
+      }
+      #contact-info {
+        position: absolute;
+        left: 80%;
+        width: 20%;
+        top: 360px;
+        height: 100px;
+        background-color: #EEE;
+      }
+      ul#horizontal {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      ul#horizontal li{
+        display:inline;
+      }
+      .vspace {
+        margin-bottom: 20px;
+      }
+      .vspace-top {
+        margin-top: 30px;
+      }
+      .paper-image {
+        width: 150px;
+      }
+      .paper-title {
+        font-weight: bold;
+      }
+      .paper-authors {
+        font-style: italic;
+      }
+      .paper-link {
+      }
+    </style>
+</head>
+<body>
+  <div id='header'>
+    <div id='header-inner'>
+      <img src="jason.jpg" class='img-me'>
+      <div class='header-text'>
+        <div class='header-text-name'>
+          Jason Rock
+        </div>
+        <div class='header-text-email'>
+          jjrock2 <span style="font-weight:bold"> at </span> illinois <span style="font-weight:bold"> dot </span> edu
+        </div>
+        <div>
+          <a href=JasonRockCV.pdf>[CV]</a>
+          <a href=https://scholar.google.com/citations?user=107hH58AAAAJ>[Google Scholar]</a>
+          <a href=https://github.com/jrock08>[Github]</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class='container'>
+    <div class='col-xs-10 col-md-offset-1'>
+      <div class='row'> 
+        <h2> Info </h2>
+            
+<p>
+I am interested in machine learning and it's application to computer vision.  My work focuses mainly on image representations, broadly defined
+as problems where the goal is to produce an image (or image-like object) as output.  The difficulty of this style of problem in current practice
+lies in the inherently generative nature of the problem and the inherently discriminative nature of deep learning based machine learning. </p>
+
+<p>
+I recently defended my dissertation, Learning and Evaluating Image Representations at the <a href="https://cs.illinois.edu/">University of Illinois at Urbana Champaign</a> for work done with <a href="https://cs.illinois.edu/directory/profile/daf">David Forsyth</a>.
+Prior to Illinois I received my BS from Rensselaer Polytechnic Institute where I worked with <a href="https://www.cs.rpi.edu/~stewart/">Chuck Stewart</a> (RPI) and <a href="https://www.whoi.edu/page.do?pid=141637&tid=3622&cid=215309"> Scott Gallager</a> (WHOI). 
+</p>
+      </div>
+      <div class='row'>
+<h2>Research</h2>
+<div class='pubs'>
+<div>
+  <b> Detecting Anomalous Faces with No Peeking Autoencoders.</b> <br>
+  Anand Bhattad, Jason Rock, David Forsyth <br>
+  Arxiv, 2018
+  <br>
+  <ul id='horizontal'>
+    <li><a href='https://arxiv.org/abs/1802.05798'>[ArXiv]</a></li>
+  </ul>
+</div>
+<br>
+
+<div>
+  <b> Authoring Image Decompositions with Generative Models</b> <br>
+  Jason Rock, Theerasit Issaranon, Aditya Deshpande, David Forsyth <br>
+  ArXiv, 2016
+  <br>
+  <ul id='horizontal'>
+    <li><a href=https://arxiv.org/abs/1612.01479>[ArXiv]</a></li>
+  </ul>
+</div>
+<br>
+
+<div> <b> Learning Large-Scale Automatic Image Colorization </b> <br>
+  Aditya Deshpande, Jason Rock, David Forsyth <br>
+  International Conference on Computer Vision (<b>ICCV</b>),
+  2015
+  <br>
+  <ul id='horizontal'>
+    <li><a href=publications/iccv15-colorization.pdf>[PDF]</a></li>
+  </ul>
+</div>
+<br>
+
+<div> <b>Completing 3D Object Shape from One Depth Image </b> <br>
+  Jason Rock, Tanmay Gupta, Justin Thorsen, JunYoung Gwak, Daeyun Shin, Derek Hoiem<br>
+  Proc. IEEE Conf. on Computer Vision and Pattern Recognition (<b> CVPR </b>),
+  2015
+  <br>
+  <ul id='horizontal'>
+    <li><a href='publications/cvpr15-shape.pdf'>[PDF]</a></li>
+  </ul>
+</div>
+<br>
+<div> <b>Non-Parametric Filtering for
+    Geometric Detail Extraction and Material Representations</b><br>
+  Zicheng Liao, Jason Rock, Yang Wang, David Forsyth<br>
+  Proc. IEEE Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>),
+  2013 
+  <br>
+  <ul id='horizontal'>
+    <li><a href="publications/cvpr13-geometricmaterial.pdf">[PDF]</a></li>
+    <li><a href='https://www.dropbox.com/s/0w1cpyy0y8qj3rr/UIUCmaterial.zip'>[Data]</a></li>
+	</ul>
+</div>
+<br>
+		
+              
+<div> <b>Boundary Cues for 3D Object Shape
+                  Recovery</b> <br>
+                Kevin Karsch, Zicheng Liao, Jason Rock, Jonathan Barron, Derek
+                Hoiem <br>
+                Proc. IEEE Conf. on Computer Vision and Pattern Recognition (<b>CVPR</b>),
+                2013 
+		<br>
+		
+<ul id='horizontal'>
+		<li><a href="publications/cvpr13-boundarycues.pdf">[PDF]</a></li>
+		<li><a href="publications/cvpr13-boundarycues-supp.pdf">[Supplemental PDF]</a></li>
+    <li><a href="http://dhoiem.cs.illinois.edu/publications/cvpr13-boundarycues-data.zip">[Data]</a></li>
+</ul>
+</div>
+</div>
+
+      </div>
+    </div>
+  </div>
+        <div class='row vspace-top'></div>
+</body>
+
+</html>
